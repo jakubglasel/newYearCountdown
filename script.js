@@ -1,5 +1,5 @@
 const date = new Date().getFullYear()
-console.log(date)
+
 
 const newYear = new Date(`${ date + 1 }-01-01 0:0:0`).getTime();
 
@@ -20,5 +20,4 @@ setInterval(() =>
     document.querySelector('.minutes').textContent = minutes;
     document.querySelector('.seconds').textContent = seconds;
 
-    // console.log(`Days: ${days}, Hours: ${hours}, Minutes: ${minutes}, Seconds: ${seconds}  `)
-}, 1000)
+    
